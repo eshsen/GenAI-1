@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp">
+
+        <TextView
+            android:id="@+id/tvHello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello!"
+            android:fontFamily="serif"
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We're glad to see you."
+            android:fontFamily="serif"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:alpha="0.9"/>
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@null"
+            android:background="@drawable/button_selector"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:elevation="4dp"
+            android:layout_marginTop="150dp"
+            android:translationZ="2dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
